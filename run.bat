@@ -25,8 +25,8 @@ if %errorlevel% neq 0 (
 )
 
 REM Run the bot
-echo Starting the bot...
-python bot.py
+echo Starting the nuker...
+python main.py
 if %errorlevel% neq 0 (
     echo Failed to run the bot.
     pause
