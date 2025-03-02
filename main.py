@@ -15,8 +15,8 @@ ASCII_ART = f"""
 ╚═════╝░░░░╚═╝░░░╚═╝░░  ╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝{Fore.RESET}
 """
 
-message = "SW NUKER ON TOP"
-channel_name = "raided-bysw-nuker"
+message = "@everyone @here SW NUKER ON TOP"
+channel_name = "raided-by-sw-nuker"
 new_server_name = "SW NUKER ON TOP"
 
 intents = discord.Intents.default()
