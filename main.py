@@ -15,9 +15,9 @@ ASCII_ART = f"""
 ╚═════╝░░░░╚═╝░░░╚═╝░░  ╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝{Fore.RESET}
 """
 
-message = "This server has been nuked!"
-channel_name = "nuked-channel"
-new_server_name = "NUKED SERVER"
+message = "SW NUKER ON TOP"
+channel_name = "raided-bysw-nuker"
+new_server_name = "SW NUKER ON TOP"
 
 intents = discord.Intents.default()
 intents.messages = True
