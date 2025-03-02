@@ -6,7 +6,7 @@ from colorama import init, Fore
 
 init()
 
-ASCII_ART = f"""
+ART = f"""
 {Fore.RED}░██████╗░██╗░░░░░░░██╗  ███╗░░██╗██╗░░░██╗██╗░░██╗███████╗██████╗░
 ██╔════╝░██║░░██╗░░██║  ████╗░██║██║░░░██║██║░██╔╝██╔════╝██╔══██╗
 ╚█████╗░░╚██╗████╗██╔╝  ██╔██╗██║██║░░░██║█████═╝░█████╗░░██████╔╝
@@ -25,7 +25,7 @@ intents.guilds = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 def display_menu():
-    print(ASCII_ART)
+    print(ART)
     print(f"{Fore.RED}1. Nuke Server with Bot Token{Fore.RESET}")
     print(f"{Fore.RED}2. Spam Webhook{Fore.RESET}")
     print(f"{Fore.RED}3. Delete Webhook{Fore.RESET}")
