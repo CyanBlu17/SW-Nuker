@@ -24,11 +24,14 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-REM Run the bot
+REM Clear the terminal screen
+cls
+
+REM Run the nuker
 echo Starting the nuker...
 python main.py
 if %errorlevel% neq 0 (
-    echo Failed to run the bot.
+    echo Failed to run the nuker.
     pause
     exit /b 1
 )
