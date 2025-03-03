@@ -8,3 +8,5 @@ Is this Nuker safe?
  It's 100% safe and Open Source if you want to check yourself.
 
 This tool is made for educational purposes only, do not use this malicuously.
+
+Issues found: Channels aren't being created, this tool is WIP so please expect a lot of errors.
