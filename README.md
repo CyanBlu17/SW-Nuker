@@ -9,4 +9,4 @@ Is this Nuker safe?
 
 This tool is made for educational purposes only, do not use this malicuously.
 
-Issues found: Channels aren't being created, this tool is WIP so please expect a lot of errors.
+Issues found: None (so far)
